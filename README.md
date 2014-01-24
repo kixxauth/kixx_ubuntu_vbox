@@ -6,7 +6,15 @@ easier than the default vagrant Ubuntu boxes.
 Here's what's included:
 
 * `apt-get update && apt-get dist-upgrade` are run.
-* build-essential, git-core, and dkms packages are installed with apt-get.
+* The following packages are installed with apt-get:
+	- build-essential
+	- git
+	- curl
+	- wget
+	- vim
+	- tree
+	- htop
+	- dkms (for VirtualBox)
 * VirtualBox Guest Additions are installed.
 
 Updating, Building, and Packaging the Box
@@ -94,9 +102,7 @@ OK, because we don't use them.  After it's done, let's remove the iso image:
 
 
 ### 5) Package the Box
-First test the web servers with:
-
-Then packaging the box is pretty simple:
+Packaging the box is pretty simple:
 
 	vagrant package -o /tmp/jfdi-YYYY-MM-DD.box
 
