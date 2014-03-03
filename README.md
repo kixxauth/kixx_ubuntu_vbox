@@ -106,5 +106,5 @@ Packaging the box is pretty simple:
 
 	vagrant package -o /tmp/Ubuntu1204-YYYY-MM-DD.box
 
-Run that command from within the `virtual_machines/devbox/` directory.
+Run that command from within the root directory of this repository.
 When it's done packaging the box, upload it to Amazon S3.
