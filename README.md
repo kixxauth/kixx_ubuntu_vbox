@@ -22,7 +22,7 @@ Updating, Building, and Packaging the Box
 
 ### 1) Install VirtualBox and Vagrant
 Update to the latest [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-followed by [Vagrant](https://www.virtualbox.org/wiki/Downloads).
+followed by [Vagrant](http://www.vagrantup.com/downloads.html).
 
 When building for Vagrant, for the rest of these steps, make sure your current
 working directory is the root directory for the guest VM on your local host
