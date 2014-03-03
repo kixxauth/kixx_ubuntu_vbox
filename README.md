@@ -104,7 +104,7 @@ OK, because we don't use them.  After it's done, let's remove the iso image:
 ### 5) Package the Box
 Packaging the box is pretty simple:
 
-	vagrant package -o /tmp/jfdi-YYYY-MM-DD.box
+	vagrant package -o /tmp/Ubuntu1204-YYYY-MM-DD.box
 
 Run that command from within the `virtual_machines/devbox/` directory.
 When it's done packaging the box, upload it to Amazon S3.
